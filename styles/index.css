@@ -1,0 +1,250 @@
+/* Font-Family: Open Sans Light */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Navbar styles */
+
+
+.card-body
+{
+    color:black;
+}
+.nav-item .mytext
+{
+    font-weight:bold;
+}
+
+.navbar-brand{
+  width: 10em;
+}
+.navbar-dark, .bg-dark{
+  background-color: #141414 !important;
+  color: #EBEBEB;
+}
+.nav-item{
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Jumbotron styles */
+
+.jumbotron{
+  padding-top: 5em;
+  padding-bottom: 22em;
+}
+.jumbotron__one{
+  background: url("../assets/Home Page/render 2 updated.jpg");
+  background-size: cover;
+}
+.jumbotron__two{
+  background: url("../assets/Healthcare page/render 1 updated.jpg");
+  background-size: cover;
+}
+.jumbotron__three{
+  background: url("../assets/Solar Page/s200 photo.jpg");
+  background-size: cover;
+}
+.jumbotron__four{
+  background: url("../assets/Solar Page/Noccarc render.jpg");
+  background-size: cover;
+}
+
+.jumbotron__header{
+  color: #0084C4;
+  font-size: 4.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.lead{
+  font-size: 1.8em;
+  color: #E1E1E1;
+  font-family: 'Open Sans', sans-serif;
+}
+.jumbotron__link a{
+  color: #E1E1E1;
+  font-size: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+.lead1{
+  color: black;
+}
+
+.jumbotron__two.container{
+text-align: right;
+}
+/* Card styles */
+.card{
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 4em;
+}
+.card__header{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.card__title, .date{
+  font-family: 'Open Sans', sans-serif;
+  
+  
+}
+.card-img-top{
+  min-height: 10em;
+  border: 1px solid #141414
+}
+.card__link a{
+  color: #0084C4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Support carousel styles */
+
+.carousel__container{
+  background-color: #C4D8F1;
+  padding: 2em;
+}
+.carousel__header{
+  font-weight: 900;
+  margin: 0em 2em 2em 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.owl-carousel2 div img{
+ height: 120px;
+  width: 50%;
+  object-fit: scale-down;
+}
+
+
+.owl-carousel div img{
+  height: 120px;
+  width: 50%;
+  object-fit: scale-down;
+}
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+    background-color: #ADB7C3;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    right: -25px;
+    display: block !important;
+    border:0px solid black;
+}
+/* Footer styles */
+footer{
+  background-color: #141414;
+  color: #EBEBEB;
+}
+.footer__brand img{
+  
+  
+}
+.fheader{
+  font-size: 0.9em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+.footer__list li{
+  padding-bottom: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer__list a{
+  font-size: 0.7em;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer__social a{
+  color: #EBEBEB;
+  font-size: 1.2em;
+}
+.footer__social a:hover{
+  text-decoration: none;
+}
+.footer__copyright{
+  font-size: 0.7em;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer__copyright a{
+  color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Media Queries */
+
+@media only screen  and (min-width : 1224px) {
+  .jumbotron{
+    padding-top: 5em;
+    height:700px;
+  }
+  }
+ @media only screen  and (min-width : 1824px) {
+      .jumbotron{
+        padding-top: 5em;
+        height:1100px;
+ }
+      
+}
+
+@media only screen and (max-width : 320px) {
+  .jumbotron{
+    padding-top: 2em;
+    height:150px;
+  }
+  .jumbotron__header{
+    color: #0084C4;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .lead{
+    font-size: 5px;
+  }
+  .just{
+    justify-content: left;
+  }
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .jumbotron{
+      padding-top: 2em;
+      height:500px;
+    }
+    .jumbotron__header{
+      color: #0084C4;
+      font-size: 25px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .lead{
+      font-size: 15px;
+    }
+    .just{
+      justify-content: left;
+    }
+
+    }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .jumbotron{
+      padding-top: 2em;
+      height:150px;
+    }
+    .jumbotron__header{
+      color: #0084C4;
+      font-size: 25px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .lead{
+      font-size: 10px;
+    }
+    .just{
+      justify-content: left;
+    }
+   
+    }  
