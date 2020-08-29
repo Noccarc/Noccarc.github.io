@@ -48,12 +48,17 @@
   background: url("../assets/Solar Page/Noccarc render.jpg");
   background-size: cover;
 }
+.jumbotron__five{
+  background: url("../assets/H210 Page/render\ iso.jpg");
+  background-size: cover;
+}
 
 .jumbotron__header{
-  color: #0084C4;
+  color: #67a7d7;
   font-size: 4.5em;
   font-family: 'Open Sans', sans-serif;
 }
+
 
 .lead{
   font-size: 1.8em;
@@ -65,9 +70,7 @@
   font-size: 0.5em;
   font-family: 'Open Sans', sans-serif;
 }
-.lead1{
-  color: black;
-}
+
 
 .jumbotron__two.container{
 text-align: right;
@@ -95,6 +98,20 @@ text-align: right;
 .card__link a{
   color: #0084C4;
   font-family: 'Open Sans', sans-serif;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.card-title{
+  font-weight: bold;
+  color: #67a7d7;
+}
+.card-text{
+  font-weight: bold;
+}
+.imgheight{
+    height: 110px;
 }
 
 /* Support carousel styles */
@@ -146,8 +163,7 @@ footer{
   background-color: #141414;
   color: #EBEBEB;
 }
-.footer__brand img{
-  
+.footer__brand img{  
   
 }
 .fheader{
@@ -162,6 +178,10 @@ footer{
 .footer__list a{
   font-size: 0.7em;
   font-family: 'Open Sans', sans-serif;
+}
+.footer__social i {
+  font-family: FontAwesome;
+  font-weight: normal;
 }
 .footer__social a{
   color: #EBEBEB;
@@ -178,6 +198,9 @@ footer{
   color: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
 }
+
+/* SOCIAL MEDIA ICONS */
+
 
 /* Media Queries */
 
@@ -212,6 +235,7 @@ footer{
     justify-content: left;
   }
   }
+
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .jumbotron{
       padding-top: 2em;
@@ -222,12 +246,75 @@ footer{
       font-size: 25px;
       font-family: 'Open Sans', sans-serif;
     }
+    .jumbotron__header200{
+      color:#67a7d7;
+      padding-top: 50px;
+      margin-right: 0px;
+      text-align: center;
+      font-size: 25px;
+     }
     .lead{
       font-size: 15px;
     }
     .just{
       justify-content: left;
     }
+    .card-title{
+      font-size: 14px;
+    }
+    .card-horizontal{
+      height: 60px;
+    }
+    .imgheight{
+      height: 70px;
+    }
+    .card-text{
+      font-size: 14px;
+    }
+   
+
+    }
+    @media only screen and (min-device-width : 480px) and (max-device-width : 768px){
+      .jumbotron{
+        padding-top: 2em;
+        height:100px;
+      }
+      .jumbotron__header{
+        color: #0084C4;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+      }
+      .jumbotron__header200{
+      color:#67a7d7;
+      padding-top: 50px;
+      margin-right: 0px;
+      text-align: center;
+      font-size: 25px;
+     }
+      .lead{
+        font-size: 15px;
+      }
+      .lead1{
+        margin-right: 50px;
+        color: whitesmoke;
+      }
+      .just{
+        justify-content: left;
+      }
+      .card-title{
+        font-size: 14px;
+      }
+      .card-horizontal{
+        height: 60px;
+      }
+      .imgheight{
+        height: 70px;
+      }
+      .card-text{
+        font-size: 14px;
+      }
+      
 
     }
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -237,14 +324,39 @@ footer{
     }
     .jumbotron__header{
       color: #0084C4;
-      font-size: 25px;
       font-family: 'Open Sans', sans-serif;
+      font-size: 25px;
     }
+    .jumbotron__header200{
+      color:whitesmoke;
+      padding-top: 110px;
+      margin-right: 80px;
+      text-align: center;
+      font-size: 25px;
+     }
+    
     .lead{
-      font-size: 10px;
+      font-size: 15px;
+    }
+    .lead1{
+      margin-right: 50px;
+      color: whitesmoke;
     }
     .just{
       justify-content: left;
     }
+    .card-title{
+      font-size: 14px;
+    }
+    .card-horizontal{
+      height: 60px;
+    }
+    .imgheight{
+      height: 70px;
+    }
+    .card-text{
+      font-size: 14px;
+    }
+   
    
     }  

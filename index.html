@@ -74,14 +74,34 @@
         class="collapse navbar-collapse"
         id="navbarSupportedContent"
       >
-        <ul class="navbar-nav justify-content-center">
+      
+
+        <!--ul class="navbar-nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link text-center text-uppercase" href="solar.html">Solar</a>
+            <div class="dropdown">
+              <a class="btn  text-center text-uppercase" type="button" id="dropdownMenuButton"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Solar</a>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+                <a class="dropdown-item" href="s200.html">S200</a>
+                <a class="dropdown-item" href="#">A600</a>
+                
+              </div>
+            </div>
+            
           </li>
           <li class="nav-item">
-            <a class="nav-link text-center text-uppercase" href="healthcare.html">Healthcare</a>
+            <div class="dropdown">
+              <a class="btn  text-center text-uppercase" type="button" id="dropdownMenuButton"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Healthcare</a>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="healthcare.html">V310</a>
+                <a class="dropdown-item" href="hfnc.html">H210</a>
+                
+              </div>
+            </div>
+            
           </li>
-        </ul>
+        </ul-->
 
         <div class="dropdown-divider"></div>
 
@@ -107,21 +127,34 @@
         <div class="col-sm-8 order-3">
             <img src="assets/Healthcare page/render 2 updated.jpg" width="100%">
         </div>
-        <div class="col-sm-3 order-2" style='margin-top:90px;'>
+        <div class="col-sm-4 order-2" style='margin-top:90px;'>
             <div class="text-center">
                 <h1 class="display-4 jumbotron__header">V310</h1>
-                <p class="lead">The new age ventilator</p>
-                <hr style="border-top: 1px solid #E1E1E1"/>
-                <p class="lead">With HFNC mode</p>
-                <a
-                   href="healthcare.html"
-                   target="_blank"
-                 >
-                   Learn More >
-                 </a>
+                <p class="lead">ICU Ventilator with Integrated HFNC</p>
+               <a href="healthcare.html">
+                <button type="button" class="btn btn-outline-primary" >Learn More ></button>
+              </a>
             </div>
         </div>
     </div>
+</div>
+
+<div class="container-fluid" style='background-color:#d7d7d7;padding:10px;'>
+  <div class="row">
+      <div class="col-sm-8 order-3">
+          <img src="assets/H210 Page/render iso1.jpg" width="100%">
+      </div>
+      <div class="col-sm-4 order-2" style='margin-top:90px;'>
+          <div class="text-center">
+              <h1 class="display-4 jumbotron__header">H210</h1>
+              <p class="lead" style="color: black;">High Flow Oxygen Therapy Device</p>
+              <a href="hfnc.html">
+                <button type="button" class="btn btn-outline-primary" >Learn More ></button>
+              </a>
+            
+          </div>
+      </div>
+  </div>
 </div>
 
   <!-- Jumbotron Images 1-->
@@ -129,20 +162,27 @@
      <div class="container d-flex justify-content-end mr-2">
        <div class="text-center">
          <h1 class="display-4 jumbotron__header">S200</h1>
-         <p class="lead" style='color:black;'>Lightweight. Effective. Autonomous</p>
-         
-         <p class="lead jumbotron__link">
-          <a
-          href="s200.html"
-          target="_blank"
-          style='color:black;'
-        >
-          Learn More >
+         <p class="lead" style="color: black;">Lightweight. Effective. Autonomous</p>
+         <a href="s200.html">
+          <button type="button" class="btn btn-outline-primary" style="color: white;" >Learn More ></button>
         </a>
         
        </div>
      </div>
    </div>
+   <div class="jumbotron jumbotron-fluid jumbotron__four" style='margin-bottom:0px;'>
+    <div class="container d-flex justify-content-start ml-2">
+      <div class="text-center">
+        <h1 class="display-4 jumbotron__header">A600</h1>
+        <p class="lead">High Speed. Modular. Shareable</p>
+        <p class="lead jumbotron__link">
+          <a href="solar.html">
+            <button type="button" class="btn btn-outline-primary" style="color: white;" >Learn More ></button>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
 
    <!-- Support Carousel -->
  
@@ -284,15 +324,17 @@
         <div class="col-sm-12 col-md-2">
           <h5 class="fheader">Explore</h5>
           <ul class="footer__list list-unstyled">
-            <li ><a href="solar.html" style="color: white;">Solar</a></li>
-            <li ><a href="healthcare.html" style="color: white;" >Healthcare</a></li>
+          <li><a href="healthcare.html" style="color: white;">V310</a></li>
+          <li><a href="hfnc.html" style="color: white;">H210</a></li>
+          <li><a href="s200.html" style="color: white;">S200</a></li>
+          <li><a href="solar.html" style="color: white;">A600</a></li>
           </ul>
         </div>
         <div class="col-sm-12 col-md-2">
           <h5 class="fheader">About Noccarc</h5>
           <ul class="footer__list list-unstyled">
             <li  ><a href="#about" style="color: white;">About Us</a></li>
-            <li><a href="#" style="color: white;">Supported bye</a></li>
+            <li><a href="#" style="color: white;">Supported by</a></li>
             <li><a href="#" style="color: white;">Careers</a></li>
             <li ><a href="#" style="color: white;">Newsroom</a></li>
             <li><a href="#contact" style="color: white;">Contact</a></li>
